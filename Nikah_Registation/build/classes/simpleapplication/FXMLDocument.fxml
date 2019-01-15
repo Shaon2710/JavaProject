@@ -11,14 +11,14 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="854.0" prefWidth="811.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simpleapplication.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="870.0" prefWidth="811.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simpleapplication.FXMLDocumentController">
    <children>
-      <Text layoutX="328.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="নিকাহ নামা " wrappingWidth="155.666015625" AnchorPane.bottomAnchor="769.470703125" AnchorPane.leftAnchor="328.0" AnchorPane.rightAnchor="327.333984375" AnchorPane.topAnchor="25.0">
+      <Text boundsType="LOGICAL_VERTICAL_CENTER" layoutX="328.0" layoutY="34.5" strokeType="OUTSIDE" strokeWidth="0.0" text="নিকাহ নামা " textOrigin="CENTER" wrappingWidth="155.666015625" AnchorPane.bottomAnchor="857.0" AnchorPane.leftAnchor="328.0" AnchorPane.rightAnchor="327.0" AnchorPane.topAnchor="12.0">
          <font>
             <Font size="30.0" />
          </font>
       </Text>
-      <VBox layoutX="4.0" layoutY="81.0" prefHeight="768.0" prefWidth="801.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="81.0">
+      <VBox layoutX="4.0" layoutY="50.0" prefHeight="827.0" prefWidth="801.0" AnchorPane.bottomAnchor="37.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="50.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -26,136 +26,237 @@
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
          </padding>
          <children>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1. ">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="১. ওয়ার্ড, শহর, ইউনিয়ন, থানা, জেলার নাম যেখানে বিবাহকার্য হইয়াচ্ছে।  ">
                <font>
                   <Font size="15.0" />
                </font>
             </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2.">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3.">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="4.">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="5">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Text>
-            <TextField />
-            <GridPane prefHeight="40.0" prefWidth="638.0">
-              <columnConstraints>
-                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-              </columnConstraints>
-              <rowConstraints>
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-              </rowConstraints>
-               <VBox.margin>
-                  <Insets bottom="-2.0" left="454.0" right="23.0" top="10.0" />
-               </VBox.margin>
+            <TextField>
                <padding>
-                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
                </padding>
-               <children>
-                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Button" GridPane.columnIndex="1">
-                     <GridPane.margin>
-                        <Insets bottom="1.0" left="3.0" right="1.0" top="1.0" />
-                     </GridPane.margin>
-                     <padding>
-                        <Insets bottom="1.0" left="3.0" right="1.0" top="1.0" />
-                     </padding>
-                  </Button>
-                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Button">
-                     <GridPane.margin>
-                        <Insets bottom="1.0" left="1.0" right="3.0" top="1.0" />
-                     </GridPane.margin>
-                     <padding>
-                        <Insets bottom="1.0" left="1.0" right="3.0" top="1.0" />
-                     </padding>
-                  </Button>
-               </children>
-            </GridPane>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="২. নিজ নিজ বাসস্থান সহ বর ও তাহর পিতার নাম ">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="৩. বরের বয়স">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="৪. নিজ নিজ বাসস্থান সহ কন্যা ও তাহর পিতার নাম " wrappingWidth="328.337890625">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="৫. কন্যা কুমারী, বিধবা অথবা তালাকপ্রাপ্তা নারী কিনা?">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="৬. কন্যার বয়স">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="৭. কন্যা কর্তৃক উকীল নিযুক্ত হইলে ঐ উকীলের পিতার নাম ও বাসস্থানের ঠিকানা">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="৮. পিতার নাম, বাসস্থান ও কন্যার সহিত সম্পর্কের বর্ণনাসহ কন্যার উকীল নিয়োগের ব্যাপারে সাক্ষীদের নাম">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="৯. বর কর্তৃক উকীল নিযুক্ত হইলে ঐ উকীলের পিতার নাম ও বাসস্থানের ঠিকানা">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="১০. পিতার নাম, বাসস্থান সহ বরের উকীল নিয়োগের ব্যাপারে সাক্ষীদের নাম">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin>
+            </TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="2.5" left="2.5" right="2.5" top="2.5" />
+               </VBox.margin></TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField>
+               <padding>
+                  <Insets bottom="3.5" left="3.5" right="3.5" top="3.5" />
+               </padding>
+            </TextField>
          </children>
       </VBox>
+      <GridPane layoutX="551.0" layoutY="919.0" prefHeight="25.0" prefWidth="250.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="551.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="919.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+         <children>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Button" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="3.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+               <padding>
+                  <Insets bottom="1.0" left="3.0" right="1.0" top="1.0" />
+               </padding>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" text="Button">
+               <GridPane.margin>
+                  <Insets bottom="1.0" left="1.0" right="3.0" top="1.0" />
+               </GridPane.margin>
+               <padding>
+                  <Insets bottom="1.0" left="1.0" right="3.0" top="1.0" />
+               </padding>
+            </Button>
+         </children>
+      </GridPane>
    </children>
 </AnchorPane>

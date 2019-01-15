@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentinformation.FXMLDocumentController">
+   <children>
+      <GridPane layoutY="6.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="140.0" minHeight="10.0" prefHeight="79.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="329.0" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="329.0" minHeight="10.0" prefHeight="94.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="329.0" minHeight="10.0" prefHeight="90.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="208.0" minHeight="10.0" prefHeight="77.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label contentDisplay="CENTER" text="Wellcome Our Student managment System" textAlignment="CENTER" textFill="#0a0aeb" GridPane.columnSpan="3">
+               <font>
+                  <Font name="Times New Roman" size="29.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="44.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label contentDisplay="CENTER" text="Student" textAlignment="CENTER" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman Bold" size="38.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="48.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Courses" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="37.0" />
+               </font>
+               <padding>
+                  <Insets left="34.0" />
+               </padding>
+            </Label>
+            <Label text="Result" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman Bold" size="36.0" />
+               </font>
+               <padding>
+                  <Insets left="38.0" />
+               </padding>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#handleStudentShowAction" text="Show" GridPane.rowIndex="2">
+               <padding>
+                  <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets left="57.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handleStudentAddAction" text="Add" GridPane.rowIndex="3">
+               <padding>
+                  <Insets bottom="25.0" left="32.0" right="25.0" top="25.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets left="57.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handleStudentEditAction" text="Edit" GridPane.rowIndex="4">
+               <padding>
+                  <Insets bottom="25.0" left="32.0" right="25.0" top="25.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets left="57.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handleCourseShowAction" text="Show" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <padding>
+                  <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets left="57.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handleCourseAddAction" text="Add" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <padding>
+                  <Insets bottom="25.0" left="32.0" right="25.0" top="25.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets left="57.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handleViewResultAction" text="Show Result" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <padding>
+                  <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets left="32.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+      </GridPane>
+   </children>
+</AnchorPane>
